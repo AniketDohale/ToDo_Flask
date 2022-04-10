@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} About {% endblock title %}
+{% block body %}
+
+<div class="container my-5">
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+            <h1 class="display-5 fw-bold text-white">Simple ToDo App</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">This ToDo list is made by using Flask.
+                    <hr><br> You can refer Source Code from...
+                </p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a type="button" class="btn btn-outline-light btn-lg px-4" href="https://github.com/AniketDohale"
+                        target="__blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock body %}
